@@ -48,7 +48,6 @@ public class OSTApi20 extends DefaultApi20{
 	 public String getAuthorizationUrl(OAuthConfig config)
 	 {
 		 
-		System.out.println("OMG HERE");
 	    setHostname();
 	    System.setProperty("https.protocols", "SSLv3");
 	    StringBuilder authUrl = new StringBuilder();
